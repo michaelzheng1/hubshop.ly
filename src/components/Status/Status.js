@@ -6,7 +6,9 @@ class Status extends React.Component {
         return(
             <div className="status">
                 <h1>Set-ups</h1>
-                
+                <div className="status-container">
+                    <h1>Status</h1>
+                </div>
             </div>
         );
     }
