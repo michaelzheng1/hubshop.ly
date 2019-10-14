@@ -1,9 +1,13 @@
 import React from 'react';
+import './Status.css';
 
 class Status extends React.Component {
     render() {
         return(
-            <h1>Status section</h1>
+            <div className="status">
+                <h1>Set-ups</h1>
+                
+            </div>
         );
     }
 }

@@ -4,6 +4,7 @@ import Status from './components/Status/Status';
 import Deals from './components/Deals/Deals';
 import HelpAndResources from './components/HelpAndResources/HelpAndResources';
 import Blog from './components/Blog/Blog';
+import './App.css';
 
 class App extends React.Component {
     render() {
