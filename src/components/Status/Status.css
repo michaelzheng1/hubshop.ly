@@ -1,9 +1,47 @@
-.status-container {
-    position: absolute;
-width: 928px;
-height: 230px;
-left: 272px;
-top: 194px;
+.status {
+  position: relative;
+}
+.setup-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
 
-background: #FFFFFF;
+  color: #616161;
+
+  position: absolute;
+  top: 47px;
+  left: 12px;
+}
+.status-container {
+  position: absolute;
+  width: 928px;
+  height: 230px;
+  left: 12px;
+  top: 115px;
+
+  background: #ffffff;
+}
+
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.section-value {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #000000;
 }
