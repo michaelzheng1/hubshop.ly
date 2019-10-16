@@ -10,16 +10,16 @@ import './App.css';
 
 class App extends React.Component {
     render() {
-        return(
+        return (
             <BrowserRouter>
-            <div className="main-container">
-                <Header />
-                <NavBar/>
-                <Route exact path ="/" component = {Status}/>
-                <Route exact path ="/set-up" component = {Setup}/>
-                <Route exact path ="/help-and-resources" component = {HelpAndResources}/>
-                <Route exact path ="/blog" component = {Blog}/>
-            </div>
+                <div className="main-container">
+                    <Header />
+                    <NavBar />
+                    <Route exact path="/" component={Status} />
+                    <Route exact path="/set-up" component={Setup} />
+                    <Route exact path="/help-and-resources" component={HelpAndResources} />
+                    <Route exact path="/blog" component={Blog} />
+                </div>
             </BrowserRouter>
         );
     }
