@@ -2,7 +2,6 @@
   position: relative;
 }
 .setup-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -21,6 +20,7 @@
   left: 12px;
   top: 115px;
 
+  
   background: #ffffff;
 }
 
@@ -30,7 +30,6 @@
   height: 24px;
   left: 48px;
   
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -38,24 +37,59 @@
 
   color: #000000;
 }
+.flex-container {
+  background-color: greenyellow;
+  display: flex;
+  flex-wrap: nowrap;
+
+  position: absolute;
+  top: 62px;
+  left: 6px;
+}
 .section-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-
+  margin: 0;
+  
   color: #000000;
 }
+.section {
+  width: 176px;
+  height: 71px;
+  background-color: red;
+  margin: 0;
+  text-align: auto;
+}
 
+.section:not(:first-child) {
+  margin-left: 66px;
+}
 .section-value {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  margin: 0;
 
   color: #000000;
+
+}
+
+.connection {
+  text-align: center;
+}
+
+.button-center {
+  margin-left: 30px;
+}
+
+.button-center button {
+  background: #C4C4C4;
+  border-radius: 12.5px;
+  width: 106px;
+height: 25px;
 }
