@@ -1,0 +1,33 @@
+.navbar {
+  position: relative;
+  display: flex;
+  text-align: center;
+  top: 32px;
+}
+.navigation {
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.navigation a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  
+}
+
+.navigation:hover {
+    text-decoration: none;
+    background: linear-gradient(0deg, #ffffff, #ffffff), #ffa438;
+}
+
+.navigation:active {
+    background: linear-gradient(0deg, #ffffff, #ffffff), #ffa438;
+}
