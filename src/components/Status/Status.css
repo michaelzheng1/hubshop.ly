@@ -1,95 +1,21 @@
 .status {
-  position: relative;
-}
-.setup-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
 
-  color: #616161;
-
-  position: absolute;
-  top: 47px;
-  left: 12px;
+    position: relative;
+    width: 100%;
+    margin: auto 0;
+    top: -37px;
 }
+
 .status-container {
-  position: absolute;
-  width: 928px;
-  height: 230px;
-  left: 12px;
-  top: 115px;
-
-  
-  background: #ffffff;
+    background-color: white;
+    width: 97.2%;
+    margin: 0 auto;
+    height: 149px;
 }
-
-.status-container h1 {
-  position: absolute;
-  width: 287px;
-  height: 24px;
-  left: 48px;
-  
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #000000;
-}
-.flex-container {
-  background-color: greenyellow;
-  display: flex;
-  flex-wrap: nowrap;
-
-  position: absolute;
-  top: 62px;
-  left: 6px;
-}
-.section-title {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  margin: 0;
-  
-  color: #000000;
-}
-.section {
-  width: 176px;
-  height: 71px;
-  background-color: red;
-  margin: 0;
-  text-align: auto;
-}
-
-.section:not(:first-child) {
-  margin-left: 66px;
-}
-.section-value {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  margin: 0;
-
-  color: #000000;
-
-}
-
-.connection {
-  text-align: center;
-}
-
-.button-center {
-  margin-left: 30px;
-}
-
-.button-center button {
-  background: #C4C4C4;
-  border-radius: 12.5px;
-  width: 106px;
-height: 25px;
-}
+/*
+margin: 0 auto;
+background: red;
+position: absolute;
+width: 100%;
+margin: auto 0;
+*/

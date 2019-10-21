@@ -1,4 +1,8 @@
-body {
+html, body {
+    background-color: #E5E5E5;
+}
+
+.main-container {
     background-color: #E5E5E5;
     font-family: 'Roboto', sans-serif;
 }
