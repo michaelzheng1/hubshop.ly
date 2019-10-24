@@ -11,6 +11,14 @@
     margin: 0 auto;
     height: 149px;
 }
+
+.status-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 /*
 margin: 0 auto;
 background: red;
