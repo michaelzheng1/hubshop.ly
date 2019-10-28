@@ -14,7 +14,6 @@ class App extends React.Component {
             <BrowserRouter>
                 <div className="main-container">
                     <Header />
-                    <NavBar />
                     <Route exact path="/" component={Status} />
                     <Route exact path="/set-up" component={Setup} />
                     <Route exact path="/help-and-resources" component={HelpAndResources} />

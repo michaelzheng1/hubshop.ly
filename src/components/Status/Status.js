@@ -1,55 +1,41 @@
-import React from 'react';
-import './Status.css';
+import React from "react";
+import "./Status.css";
 
 class Status extends React.Component {
-    render() {
-        return (
-            <div className="status">
-
-
-                <div className="status-container">
-                    <div className="flex-container">
-                        <div className="section">
-                            <p className="section-title">Hubspot ID</p>
-                            <p className="section-value">123456</p>
-                            <div className="connection">Conntected</div>
-                        </div>
-                        <div className="section">
-                            <p className="section-title">JS Code Connection</p>
-                            <h4 className="section-value">NULL</h4>
-                            <div className="connection"> Not connected</div>
-                        </div>
-                        <div className="section">
-                            <p className="section-title">Total Orders</p>
-                            <h4 className="section-value">15</h4>
-                        </div>
-                        <div className="section">
-                            <p className="section-title">Total Contacts</p>
-                            <h4 className="section-value">30</h4>
-                            <div className="button-center">
-                                <button>Add contacts</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>                 
+  render() {
+    return (
+      <div className="status">
+        <div className="hubspot-id">
+          <h1 className="hubspot">
+            Hubspot ID:
+            <span className="id">123456</span>
+          </h1>
+        </div>
+        <div className="flex-container">
+          <div className="flex-container status">
+            <div className="connect-status">
+              <h1>Connected</h1>
+              <h4>Hubspot Connection</h4>
             </div>
-        );
-    }
+            <div className="connect-status">
+              <h1 className="connection">No Conntected</h1>
+              <h4>eCommerce Connection</h4>
+            </div>
+          </div>
+          <div className="flex-container status">
+            <div className="number-section">
+              <h1 className="number">50</h1>
+              <h4 className="number-descrip">Total order synced</h4>
+            </div>
+            <div className="number-section">
+              <h1 className="number">50</h1>
+              <h4 className="number-descrip">Total contacts</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-/*
 
-
-<p className="section-title">Hubspot ID</p>
-                            <h4 className="section-value">123456</h4>
-                            <div className="connection">Conntected</div>
-
-                                  <h4 className="section-value">NULL</h4>
-                            <div className="connection"> Not connected</div>
-
-                                                        <h4 className="section-value">15</h4>
-
-                                                        <h4 className="section-value">30</h4>
-                            <button>Add contacts</button>
-
-*/
 export default Status;

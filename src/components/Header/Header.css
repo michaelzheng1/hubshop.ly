@@ -1,21 +1,18 @@
 .header {
   position: relative;
-  /*width: 1020px; */
   width: 100%;
-  height: 80px;
-  /* left: 260px; */
-  /*top: -2px; */
+  height: 128px;
   background: #ffffff;
 }
 
 .header img {
   position: absolute;
-  left: 33px;
-  top: 25px;
-  width: 30px;
-  height: 30px;
+  width: 311.78px;
+  height: 44px;
+  top: 47px;
+  left: 57.77px;
 }
-
+/*
 .header h1 {
   position: absolute;
   left: 70px;
@@ -42,3 +39,4 @@
   text-align: center;
   color: #616161;
 }
+*/
