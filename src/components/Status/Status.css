@@ -84,3 +84,24 @@
 
   color: #818181;
 }
+
+.flex-container .code  {
+  background-color: white;
+  width: 890px;
+  margin-top: 50px;
+  height: 200px;
+  background-image: linear-gradient(
+    2.7deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  background-size: 100% 70px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+}
+
+.flex-container .code h1 {
+  color: white;
+  margin-left: 20px;
+}
