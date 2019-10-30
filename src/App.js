@@ -20,7 +20,6 @@ class App extends React.Component {
                     <Status />
                     <Setup />
                     <Billing />
-                    <HelpCenter />
                 </div>
             </BrowserRouter>
         );
