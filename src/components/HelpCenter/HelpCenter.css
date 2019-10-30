@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    /*position: relative;*/ 
+    top: 120px;
+    width: 100%;
+    left: 60px;
+  }

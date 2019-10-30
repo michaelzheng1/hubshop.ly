@@ -4,7 +4,7 @@
   text-align: center;
   width: 428.32px;
   height: 23px;
-  left: 60%;
+  left: 55%;
   /*right: 102.68px;*/
   top: 62px;
 }
@@ -18,12 +18,6 @@
   text-align: center;
   color: #0b0b0b;
 }
-/*
-.nav-link {
-  width: 222px;
-  height: 60px;
-}
-*/
 
 .navigation a {
   font-family: Muli;
