@@ -1,34 +1,43 @@
 .navbar {
-  position: relative;
+  position: absolute;
   display: flex;
   text-align: center;
-  top: 52px;
+  width: 428.32px;
+  height: 23px;
+  left: 60%;
+  /*right: 102.68px;*/
+  top: 62px;
 }
-.navigation {
-  width: 150px;
-  height: 60px;
-  border-radius: 5px;
-  margin: 0 auto;
-  position: relative;
-  padding-top: 15px;
 
+.navigation {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #0b0b0b;
 }
+/*
 .nav-link {
   width: 222px;
   height: 60px;
 }
+*/
 
-/*
 .navigation a {
-  font-family: Roboto;
+  font-family: Muli;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 15px;
   line-height: 19px;
-  text-align: center;
-  color: #000000;
-}
+  /* identical to box height */
 
+  text-align: center;
+
+  color: #0b0b0b;
+}
+/*
 .navigation:hover {
     text-decoration: none;
     background: linear-gradient(0deg, #ffffff, #ffffff), #ffa438;

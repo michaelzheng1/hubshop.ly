@@ -1,12 +1,12 @@
 import React from 'react';
 
-class Blog extends React.Component {
+class Deals extends React.Component {
     render() {
         return (
-            <div className="blog">
+            <div className="deals">
             </div>
         );
     }
 }
 
-export default Blog;
+export default Deals;
