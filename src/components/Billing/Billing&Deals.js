@@ -35,6 +35,8 @@ class Billing extends React.Component {
           deals info
         </div>
       </div>
+
+      
     );
   }
 }

@@ -9,13 +9,14 @@ import Deals from './components/Deals/Deals'
 import HelpCenter from './components/HelpCenter/HelpCenter';
 import Blog from './components/Blog/Blog';
 import './App.css';
+import Navbar from './components/NavBar/NavBar';
 
 class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
                 <div className="main-container">
-                    <Header />
+                    <Navbar />
                     <Status />
                     <Setup />
                     <Billing />
