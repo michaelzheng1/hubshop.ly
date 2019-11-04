@@ -20,6 +20,7 @@ class App extends React.Component {
                     <Status />
                     <Setup />
                     <Billing />
+                    <HelpCenter />
                 </div>
             </BrowserRouter>
         );
@@ -27,3 +28,4 @@ class App extends React.Component {
 }
 
 export default App;
+ 

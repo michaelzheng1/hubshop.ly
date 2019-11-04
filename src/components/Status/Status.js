@@ -11,20 +11,28 @@ class Status extends React.Component {
           <span className="id">123456</span>
         </h1>
         <div class="row">
-          <div class="col-sm-6">
-              <div className="connect-status">
-                <h1>Connected</h1>
-                <h4>Hubspot Connection</h4>
-              </div>
-              <div className="connect-status">
-                <h1 className="connection">No Conntected</h1>
-                <h4>eCommerce Connection</h4>
+          <div class="col-sm-6 connection">
+            <div className="connect-status">
+              <h1 className="connected-green">Connected</h1>
+              <h4 className="connected-detail">Hubspot Connection</h4>
+            </div>
+            <div>
+              {" "}
+              <hr className="vertical-line"></hr>
+            </div>
+            <div className="connect-status">
+              <h1 className="connected-yellow">No Conntected</h1>
+              <h4 className="connected-detail">eCommerce Connection</h4>
             </div>
           </div>
           <div class="col-sm-6">
-          <div className="number-section">
+            <div className="number-section">
               <h1 className="number">50</h1>
               <h4 className="number-descrip">Total order synced</h4>
+            </div>
+            <div>
+              {" "}
+              <hr className="vertical-line"></hr>
             </div>
             <div className="number-section">
               <h1 className="number">50</h1>
@@ -38,38 +46,3 @@ class Status extends React.Component {
 }
 
 export default Status;
-/*
-
-
- <div className="status">
-        <div className="hubspot-id">
-          <h1 className="hubspot">
-            Hubspot ID:
-            <span className="id">123456</span>
-          </h1>
-        </div>
-        <div className="flex-container">
-          <div className="flex-container status">
-            <div className="connect-status">
-              <h1>Connected</h1>
-              <h4>Hubspot Connection</h4>
-            </div>
-            <div className="connect-status">
-              <h1 className="connection">No Conntected</h1>
-              <h4>eCommerce Connection</h4>
-            </div>
-          </div>
-          <div className="flex-container status">
-            <div className="number-section">
-              <h1 className="number">50</h1>
-              <h4 className="number-descrip">Total order synced</h4>
-            </div>
-            <div className="number-section">
-              <h1 className="number">50</h1>
-              <h4 className="number-descrip">Total contacts</h4>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      */

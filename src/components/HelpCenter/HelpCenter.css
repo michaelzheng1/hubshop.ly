@@ -7,3 +7,8 @@
     width: 100%;
     left: 60px;
   }
+
+  .faq {
+    background-color: red;
+    padding-left: 50px;
+  }

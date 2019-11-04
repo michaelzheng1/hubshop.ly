@@ -1,4 +1,4 @@
-.flex-container .payment {
+/*.flex-container .payment {
   position: relative;
   background-color: white;
   height: auto;
@@ -19,4 +19,71 @@
 
 .payment:nth-child(2) {
   left: 32px;
+}
+*/
+/*****************************************/
+/*
+.billing {
+  margin-top: 130px;
+  margin: auto 0;
+  
+}
+.payment {
+  margin: auto 0;
+
+}
+
+.col-4 {
+  background-color: white;
+  width: 428px;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    2.7deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  background-size: 100% 10px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+}
+
+.col-sm-6 .connection {
+  position: relative;
+}
+.col-4:nth-child(2) {
+  left: 32px;
+}
+/*********                          *****************     8************/
+.bill-and-deals {
+  margin-top: 130px;
+}
+.billing {
+  position: relative;
+  background-color: white;
+  height: auto;
+  top: 25px;
+  left: 0px;
+  width: 427px;
+  background-image: linear-gradient(
+    20.17deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  background-size: 100% 59px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  border-radius: 4px 4px 0px 0px;
+}
+.payment h1 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
 }
