@@ -38,29 +38,30 @@ class IssueAndHelp extends React.Component {
               <div class="card-body">
                 <p class="card-text">
                   <div clssName="row">
-                    <div className="col-2">
+                    <div className="col-md-4">
                     <img src="/src/components/Images/envelope.png" />
                     </div>
-                    <div className="col-10">
+                    <div className="col-md-8">
                     <p>
                       Contact us anytime at{" "}
                       <a href="#">Support@GrooveCommerce.com</a>
                     </p>
                     </div>
                   </div>
-                  <div className="contact">
-                   
-                  </div>
-                  <div className="resources">
+        
+                  <div clssName="row">
+                    <div className="col-md-4">
+                    <img src="/src/components/Images/books.png" />
+                    </div>
+                    <div className="col-md-8">
                     <p>
                       E-book resources available at{" "}
                       <a href="#">HubShop.ly/Resources</a>
                     </p>
-                    <p>
-                      E-books help you to install as well as better make use of
-                      HubShop.ly
-                    </p>
+                    </div>
                   </div>
+        
+               
                 </p>
               </div>
             </div>
