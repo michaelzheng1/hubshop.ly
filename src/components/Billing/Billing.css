@@ -46,37 +46,51 @@
   color: #ffffff;
 }
 
-#dropdownMenuButton {
+.dropdownMenuButton {
   width: 173px;
   height: 40px;
 
-  color: #BDBDBD;;
+  color: #bdbdbd;
   background: #ffffff;
   opacity: 0.8;
   border: 1px solid #dbdbdb;
   box-sizing: border-box;
   border-radius: 5px;
+  float: right;
 }
+/*
 .dropdown {
   padding-left: 48px;
 }
+*/
 .install-status {
   /*padding-left: 117px;*/
   float: right;
 }
 .bill h4 {
-
-font-family: Muli;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 23px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
 }
 .bill-section {
-   background: #F4F4F4;
-   border-radius: 4px;
+  background: #f4f4f4;
+  border-radius: 4px;
 }
 
 .right-side {
   float: right;
+}
+
+.dropdownMenuButtonDeals {
+  /*
+  width: 384px;
+  height: 40px;
+  */
+  color: #c4c4c4;
+  background: #f9f9f9;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
