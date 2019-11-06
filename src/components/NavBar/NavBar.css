@@ -1,11 +1,14 @@
+.navbar-custom {
+  background-color: white;
+}
+/*
 .navbar {
   position: absolute;
   display: flex;
   text-align: center;
   width: 428.32px;
   height: 23px;
-  left: 60%;
-  /*right: 102.68px;*/
+  left: 55%;
   top: 62px;
 }
 
@@ -18,12 +21,6 @@
   text-align: center;
   color: #0b0b0b;
 }
-/*
-.nav-link {
-  width: 222px;
-  height: 60px;
-}
-*/
 
 .navigation a {
   font-family: Muli;
@@ -31,19 +28,9 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
 
   color: #0b0b0b;
-}
-/*
-.navigation:hover {
-    text-decoration: none;
-    background: linear-gradient(0deg, #ffffff, #ffffff), #ffa438;
-}
-
-.navigation:active {
-    background: linear-gradient(0deg, #ffffff, #ffffff), #ffa438;
 }
 */

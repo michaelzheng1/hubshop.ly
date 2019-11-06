@@ -6,12 +6,90 @@ class Setup extends React.Component {
     var headHTML = "</head>";
 
     return (
+      <div class="container">
+        <div class="col-16">
+          <h1>Set-up</h1>
+          <div className="card">
+            <h5 class="card-header">JS Code Install</h5>
+            <div class="card-body">
+              <p class="card-text">
+                <ol className="setup-list">
+                  <li>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Copy the Code and paste it right before the {headHTML}{" "}
+                          in <a href="#">your themes HTML Head.html template</a>
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                      <form>
+                          <input className="code"></input>
+                          <label class="control-label">
+                            <a href="#" className="float-right copy">
+                              Copy Code
+                            </a>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Next, install the tag required for abandoned card
+                          functionality. Copy the script and paste it at the
+                          very end of
+                          <a href="#"> your theme’s cartitem.html</a> and
+                          <a href="#"> check out cartitem.html snippets</a>
+                        </p>
+                      </div>
+
+                      <div class="col-sm">
+                        <form>
+                          <input className="code"></input>
+                          <label for="colFormLabel"class="control-label">
+                            <a href="#" className="copy">
+                              Copy Code
+                            </a>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Please make sure to load your front page after
+                          installing.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+                <button type="button" class="btn float-right btn-default">
+                  Recheck JavaScript Connection Status
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Setup;
+
+/*
       <div className="flex-container code">
         <div className="code">
           <h1>JS Code Install</h1>
           <ol>
             <li>
-              Copy the Code and paste it right before the {headHTML} in
+              Copy the Code and paste it right before the {headHTML} in {' '}
               <a href="#">your themes HTML Head.html template</a>
               <input></input>
             </li>
@@ -19,7 +97,7 @@ class Setup extends React.Component {
               {" "}
               Next, install the tag required for abandoned card functionality.
               Copy the script and paste it at the very end of
-              <a href="#"> your theme’s cartitem.html</a> and 
+              <a href="#">  your theme’s cartitem.html</a> and 
               <a href="#"> check out cartitem.html snippets</a>
               
               <input></input>
@@ -32,8 +110,4 @@ class Setup extends React.Component {
           </ol>
         </div>
       </div>
-    );
-  }
-}
-
-export default Setup;
+      */

@@ -1,0 +1,59 @@
+.typeHere {
+  height: 63px;
+  background: #f4f4f4;
+  width: 95%;
+  border-radius: 4px;
+  border: none;
+  vertical-align: middle;
+  padding-left: 18px;
+}
+.issue-and-help {
+  height: 309px;
+  margin-top: 25px;
+}
+.issue p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #0b0b0b;
+  padding: 12px;
+}
+
+.form-control {
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+textarea {
+    vertical-align: center !important;
+}
+.btn-default {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #2f85f6 !important;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  padding: 10px 31px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  vertical-align: center;
+}
+
+.btn-default:hover {
+  color: #fff;
+  border: 2px solid rgba(43, 122, 226, 0.75);
+}
+
+p {
+  display: inline-block;
+  
+}
+

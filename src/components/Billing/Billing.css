@@ -1,8 +1,96 @@
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    position: relative;
-    top: 120px;
-    width: 100%;
-    left: 60px;
-  }
+.bill-and-deals {
+  height: 666px;
+  margin-top: 25px;
+}
+.card-header {
+  background-image: linear-gradient(
+    20.17deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  border-radius: 4px 4px 0px 0px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  color: #ffffff;
+}
+.section-with-title {
+  position: relative;
+  background-color: white;
+  height: 666px;
+  top: 25px;
+  left: 0px;
+  width: 427px;
+  background-image: linear-gradient(
+    20.17deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  background-size: 100% 59px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+}
+.payment h1 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.dropdownMenuButton {
+  width: 173px;
+  height: 40px;
+
+  color: #bdbdbd;
+  background: #ffffff;
+  opacity: 0.8;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  float: right;
+}
+/*
+.dropdown {
+  padding-left: 48px;
+}
+*/
+.install-status {
+  /*padding-left: 117px;*/
+  float: right;
+}
+.bill h4 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+.bill-section {
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+.right-side {
+  float: right;
+}
+
+.dropdownMenuButtonDeals {
+  /*
+  width: 384px;
+  height: 40px;
+  */
+  color: #c4c4c4;
+  background: #f9f9f9;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
