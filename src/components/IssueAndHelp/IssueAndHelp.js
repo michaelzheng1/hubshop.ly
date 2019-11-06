@@ -37,11 +37,19 @@ class IssueAndHelp extends React.Component {
               <h5 class="card-header">Help and resources</h5>
               <div class="card-body">
                 <p class="card-text">
-                  <div className="contact">
+                  <div clssName="row">
+                    <div className="col-2">
+                    <img src="/src/components/Images/envelope.png" />
+                    </div>
+                    <div className="col-10">
                     <p>
                       Contact us anytime at{" "}
                       <a href="#">Support@GrooveCommerce.com</a>
                     </p>
+                    </div>
+                  </div>
+                  <div className="contact">
+                   
                   </div>
                   <div className="resources">
                     <p>
