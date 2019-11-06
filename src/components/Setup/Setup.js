@@ -13,7 +13,7 @@ class Setup extends React.Component {
             <h5 class="card-header">JS Code Install</h5>
             <div class="card-body">
               <p class="card-text">
-                <ol>
+                <ol className="setup-list">
                   <li>
                     Copy the Code and paste it right before the {headHTML} in{" "}
                     <a href="#">your themes HTML Head.html template</a>
