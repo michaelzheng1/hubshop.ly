@@ -15,25 +15,63 @@ class Setup extends React.Component {
               <p class="card-text">
                 <ol className="setup-list">
                   <li>
-                    Copy the Code and paste it right before the {headHTML} in{" "}
-                    <a href="#">your themes HTML Head.html template</a>
-                    <input></input>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Copy the Code and paste it right before the {headHTML}{" "}
+                          in <a href="#">your themes HTML Head.html template</a>
+                        </p>
+                      </div>
+                      <div class="col-sm">
+                      <form>
+                          <input className="code"></input>
+                          <label class="control-label">
+                            <a href="#" className="float-right copy">
+                              Copy Code
+                            </a>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
                   </li>
                   <li>
-                    {" "}
-                    Next, install the tag required for abandoned card
-                    functionality. Copy the script and paste it at the very end
-                    of
-                    <a href="#"> your theme’s cartitem.html</a> and
-                    <a href="#"> check out cartitem.html snippets</a>
-                    <input></input>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Next, install the tag required for abandoned card
+                          functionality. Copy the script and paste it at the
+                          very end of
+                          <a href="#"> your theme’s cartitem.html</a> and
+                          <a href="#"> check out cartitem.html snippets</a>
+                        </p>
+                      </div>
+
+                      <div class="col-sm">
+                        <form>
+                          <input className="code"></input>
+                          <label for="colFormLabel"class="control-label">
+                            <a href="#" className="copy">
+                              Copy Code
+                            </a>
+                          </label>
+                        </form>
+                      </div>
+                    </div>
                   </li>
                   <li>
-                    {" "}
-                    Please make sure to load your front page after installing.
-                    <button>Recheck JavaScript Connection Status</button>
+                    <div className="row">
+                      <div class="col-sm">
+                        <p className=" code-details">
+                          Please make sure to load your front page after
+                          installing.
+                        </p>
+                      </div>
+                    </div>
                   </li>
                 </ol>
+                <button type="button" class="btn float-right btn-default">
+                  Recheck JavaScript Connection Status
+                </button>
               </p>
             </div>
           </div>
@@ -73,4 +111,3 @@ export default Setup;
         </div>
       </div>
       */
-  

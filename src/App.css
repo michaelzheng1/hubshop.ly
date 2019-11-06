@@ -1,8 +1,14 @@
-html, body {
-    background-color: #E5E5E5;
+@font-face {
+    font-family: "Gilroy";
+    src: url("/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Black.otf") format("otf"),
+         url("/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Bold.otf") format("otf");
+  }
+html,
+body {
+  background-color: #e5e5e5;
 }
 
 .main-container {
-    background-color: #E5E5E5;
-    font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  font-family: "Muli", sans-serif;
 }
