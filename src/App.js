@@ -10,6 +10,7 @@ import HelpCenter from './components/HelpCenter/HelpCenter';
 import Blog from './components/Blog/Blog';
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
+import IssueAndHelp from './components/IssueAndHelp/IssueAndHelp';
 
 class App extends React.Component {
     render() {
@@ -21,6 +22,8 @@ class App extends React.Component {
                     <Setup />
                     <Billing />
                     <HelpCenter />
+                    <IssueAndHelp />
+                    <Blog />
                 </div>
             </BrowserRouter>
         );

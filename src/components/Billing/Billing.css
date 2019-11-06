@@ -59,12 +59,29 @@
 }
 /*********                          *****************     8************/
 .bill-and-deals {
-  margin-top: 130px;
+  height: 666px;
 }
-.billing {
+.card-header {
+  background-image: linear-gradient(
+    20.17deg,
+    #8c3cee 0%,
+    #2f85f6 60.78%,
+    #2daef7 100%
+  );
+  border-radius: 4px 4px 0px 0px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  color: #ffffff;
+}
+.section-with-title {
+  
   position: relative;
   background-color: white;
-  height: auto;
+  height: 666px;
   top: 25px;
   left: 0px;
   width: 427px;
@@ -78,6 +95,7 @@
   background-position: 0% 0%, 0% 100%;
   background-repeat: no-repeat;
   border-radius: 4px 4px 0px 0px;
+  display: flex;
 }
 .payment h1 {
   font-family: Muli;
@@ -87,3 +105,5 @@
   line-height: 25px;
   color: #ffffff;
 }
+
+

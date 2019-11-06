@@ -11,7 +11,8 @@ class Status extends React.Component {
           <span className="id">123456</span>
         </h1>
         <div class="row">
-          <div class="col-sm-6 connection">
+          <div class="col-sm-6">
+            <div className="section">
             <div className="connect-status">
               <h1 className="connected-green">Connected</h1>
               <h4 className="connected-detail">Hubspot Connection</h4>
@@ -24,9 +25,12 @@ class Status extends React.Component {
               <h1 className="connected-yellow">No Conntected</h1>
               <h4 className="connected-detail">eCommerce Connection</h4>
             </div>
+            </div>
           </div>
           <div class="col-sm-6">
-            <div className="number-section">
+          <div className="section">
+            
+          <div className="number-section">
               <h1 className="number">50</h1>
               <h4 className="number-descrip">Total order synced</h4>
             </div>
@@ -37,7 +41,8 @@ class Status extends React.Component {
             <div className="number-section">
               <h1 className="number">50</h1>
               <h4 className="number-descrip">Total contacts</h4>
-            </div>
+            </div> </div>
+
           </div>
         </div>
       </div>
