@@ -1,0 +1,41 @@
+.panel-title {
+    position: relative;
+}
+
+.panel-title {
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 147.19%;
+    color: #0B0B0B;
+    padding-left: 15px;
+    padding: 10px 10px;
+}
+
+.panel-title::after {
+    content: url(/src/components/Images/arrow_down.png);
+    color: #333;
+    position: absolute;
+    padding: 10px 10px;
+    right: 0px;
+}
+
+.panel-title[aria-expanded="true"]::after {
+    content: url(/src/components/Images/arrow_up.png);
+}
+
+.panel-body p {
+    padding-left: 17px;
+    padding-top: 5px;
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 147.19%;
+    color: #818181;
+}
+
+#lastHr{
+    padding-bottom: 30px;
+}

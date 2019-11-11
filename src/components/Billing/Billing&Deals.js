@@ -8,28 +8,30 @@ class Billing extends React.Component {
         <div className="row">
           <div className="col-sm-6">
             <div className="card bill-and-deals">
-              <h5 class="card-header">Configuration & Billing</h5>
-              <div class="card-body">
-                <p class="card-text">
+              <h5 className="card-header">Configuration & Billing</h5>
+              <div className="card-body">
+                <div className="card-text">
                   <div className="row">
-                    <div className="col-sm-9">
+                    <div className="col-sm-6">
                       <p>Install Hubspot Tracking Code in Theme</p>
                     </div>
-                    <div class="col-sm-3">
-                      <p class="right-side">Installed</p>
+                    <div className="col-sm-6">
+                      <p className="right-side installed">Installed
+                      <img className="circle-status" src="/src/components/Images/check_circle.png" alt="checked_circle" />
+                      </p>
                     </div>
                   </div>
 
                   <hr className="horizontal-line"></hr>
 
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-sm-5">
                       <p>Lifecyle State to use for New Orders</p>
                     </div>
-                    <div className="col-md-6">
-                      <div class="dropdown">
+                    <div className="col-sm-7">
+                      <div className="dropdown">
                         <button
-                          class="btn btn-secondary dropdownMenuButton"
+                          className="btn btn-secondary dropdownMenuButton"
                           type="button"
                           id="dropdownMenuButton"
                           data-toggle="dropdown"
@@ -38,18 +40,19 @@ class Billing extends React.Component {
                         >
                           Customers
                           <img src="/src/components/Images/arrow_down.png" />
+
                         </button>
                         <div
-                          class="dropdown-menu billing"
+                          className="dropdown-menu billing"
                           aria-labelledby="dropdownMenuButton"
                         >
-                          <a class="dropdown-item" href="#">
+                          <a className="dropdown-item" href="#">
                             Action
                           </a>
-                          <a class="dropdown-item" href="#">
+                          <a className="dropdown-item" href="#">
                             Another action
                           </a>
-                          <a class="dropdown-item" href="#">
+                          <a className="dropdown-item" href="#">
                             Something else here
                           </a>
                         </div>
@@ -64,24 +67,31 @@ class Billing extends React.Component {
                     <div className="bill-section">
                       <div className="row">
                         <div className="col-md-6">
-                          <p>MasterCard ending in 0000</p>
+                          <p>MasterCard ending in <strong>0000</strong></p>
                         </div>
                         <div className="col-md-6">
-                          <p className="right-side">Edit</p>
+                          <a href="#" className="right-side">
+                            Edit
+                          </a>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <p>Expires on 7/20</p>
+                          <p>Expires on <strong>7/20</strong></p>
                         </div>
                         <div className="col-md-6">
-                          <p className="right-side">Delete</p>
+                           <a href="#" className="right-side">
+                            <font color="black">Delete</font>
+                          </a>
                         </div>
                       </div>
-                      <p className="right-side">Add Payment Method</p>
+                         <a href="#" className="right-side add-payment">
+                            <img id="add-circle" src="/src/components/Images/add_circle.png" alt="add_circle" />
+                            Add Payment Method
+                          </a>
                     </div>
                   </div>
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -90,25 +100,25 @@ class Billing extends React.Component {
             <div className="card bill-and-deals">
               <h5 className="card-header">Deals</h5>
               <div className="card-body">
-                <p className="card-text">
+                <div className="card-text">
                   <div className="payment">
-                    <div class="row">
-                      <div class="col-md-10">
+                    <div className="row">
+                      <div className="col-md-10">
                         <p>
                           Would you like HubShop.ly to sync your orders as Deals
                           in Hubspot?
                         </p>
                       </div>
-                      <div class="col-md-2">
-                        <div class="custom-control custom-switch">
+                      <div className="col-md-2">
+                        <div className="custom-control custom-switch">
                           <input
                             type="checkbox"
-                            class="custom-control-input"
+                            className="custom-control-input"
                             id="customSwitches"
                           />
                           <label
-                            class="custom-control-label"
-                            for="customSwitches"
+                            className="custom-control-label"
+                           
                           ></label>
                         </div>
                       </div>
@@ -119,7 +129,7 @@ class Billing extends React.Component {
                       pipeline?
                     </p>
 
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
                         className="btn btn-secondary btn-block dropdownMenuButtonDeals"
                         type="button"
@@ -131,10 +141,10 @@ class Billing extends React.Component {
                         <img src="/src/components/Images/arrow_down.png" />
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
                       </div>
@@ -143,7 +153,7 @@ class Billing extends React.Component {
                     <div className="question">
                       <p>When an order is completed Put it in</p>
                     </div>
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
                         className="btn btn-secondary btn-block dropdownMenuButtonDeals"
                         type="button"
@@ -155,10 +165,10 @@ class Billing extends React.Component {
                         <img src="/src/components/Images/arrow_down.png" />
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
                       </div>
@@ -167,7 +177,7 @@ class Billing extends React.Component {
                     <div className="question">
                       <p>When an order is cancelled, Put it in </p>
                     </div>
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
                         className="btn btn-secondary btn-block dropdownMenuButtonDeals"
                         type="button"
@@ -179,10 +189,10 @@ class Billing extends React.Component {
                         <img src="/src/components/Images/arrow_down.png" />
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
                       </div>
@@ -194,7 +204,7 @@ class Billing extends React.Component {
                         Deal Type?
                       </p>
                     </div>
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
                         className="btn btn-secondary btn-block dropdownMenuButtonDeals"
                         type="button"
@@ -206,10 +216,10 @@ class Billing extends React.Component {
                         <img src="/src/components/Images/arrow_down.png" />
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
                       </div>
@@ -221,7 +231,7 @@ class Billing extends React.Component {
                         HubSpot User?
                       </p>
                     </div>
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
                         className="btn btn-secondary btn-block dropdownMenuButtonDeals"
                         type="button"
@@ -233,16 +243,16 @@ class Billing extends React.Component {
                         <img src="/src/components/Images/arrow_down.png" />
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
                       </div>
                     </div>
                   </div>
-                </p>
+                </div>
               </div>
             </div>
           </div>

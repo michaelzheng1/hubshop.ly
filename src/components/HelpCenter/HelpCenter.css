@@ -12,3 +12,9 @@
     background-color: red;
     padding-left: 50px;
   }
+
+.navbar-nav li {
+  display: inline;
+}
+  /*** ==accordin== **/
+ 

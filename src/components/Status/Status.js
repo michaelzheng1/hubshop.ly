@@ -5,13 +5,13 @@ import "./Status.css";
 class Status extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div className="container">
         <h1 className="hubspot">
           Hubspot ID:
           <span className="id">123456</span>
         </h1>
-        <div class="row">
-          <div class="col-sm-6">
+        <div className="row">
+          <div className="col-sm-6">
             <div className="section">
             <div className="connect-status">
               <h1 className="connected-green">Connected</h1>
@@ -27,7 +27,7 @@ class Status extends React.Component {
             </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div className="col-sm-6">
           <div className="section">
             
           <div className="number-section">

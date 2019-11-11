@@ -6,26 +6,26 @@ class Setup extends React.Component {
     var headHTML = "</head>";
 
     return (
-      <div class="container">
-        <div class="col-16">
+      <div className="container">
+        <div className="col-16">
           <h1>Set-up</h1>
           <div className="card">
-            <h5 class="card-header">JS Code Install</h5>
-            <div class="card-body">
-              <p class="card-text">
+            <h5 className="card-header">JS Code Install</h5>
+            <div className="card-body">
+              <div className="card-text">
                 <ol className="setup-list">
                   <li>
                     <div className="row">
-                      <div class="col-sm">
+                      <div className="col-sm">
                         <p className=" code-details">
                           Copy the Code and paste it right before the {headHTML}{" "}
                           in <a href="#">your themes HTML Head.html template</a>
                         </p>
                       </div>
-                      <div class="col-sm">
+                      <div className="col-sm">
                       <form>
                           <input className="code"></input>
-                          <label class="control-label">
+                          <label className="control-label">
                             <a href="#" className="float-right copy">
                               Copy Code
                             </a>
@@ -36,7 +36,7 @@ class Setup extends React.Component {
                   </li>
                   <li>
                     <div className="row">
-                      <div class="col-sm">
+                      <div className="col-sm">
                         <p className=" code-details">
                           Next, install the tag required for abandoned card
                           functionality. Copy the script and paste it at the
@@ -46,10 +46,10 @@ class Setup extends React.Component {
                         </p>
                       </div>
 
-                      <div class="col-sm">
+                      <div className="col-sm">
                         <form>
                           <input className="code"></input>
-                          <label for="colFormLabel"class="control-label">
+                          <label className="control-label">
                             <a href="#" className="copy">
                               Copy Code
                             </a>
@@ -60,7 +60,7 @@ class Setup extends React.Component {
                   </li>
                   <li>
                     <div className="row">
-                      <div class="col-sm">
+                      <div className="col-sm">
                         <p className=" code-details">
                           Please make sure to load your front page after
                           installing.
@@ -69,10 +69,10 @@ class Setup extends React.Component {
                     </div>
                   </li>
                 </ol>
-                <button type="button" class="btn float-right btn-default">
+                <button type="button" className="btn float-right btn-default">
                   Recheck JavaScript Connection Status
                 </button>
-              </p>
+              </div>
             </div>
           </div>
         </div>
