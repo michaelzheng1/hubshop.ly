@@ -36,7 +36,7 @@
 }
 
 .panel-title[aria-expanded="true"]::after {
-    content: url(/src/components/Images/arrow_up.png);
+    content: url(/src/components/Images/arrow_up.png) !important;
 }
 
 .panel-body p {
