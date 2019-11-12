@@ -2,6 +2,7 @@ import React from "react";
 import "./helpCenter.css";
 import General from "./Accordin/General";
 import Benefits from "./Accordin/Benefits";
+import Billing from "./Accordin/Billing";
 import Search from "./SearchBar/SearchBar";
 import { FaStar } from "react-icons/fa";
 import { FaDollarSign } from "react-icons/fa";
@@ -84,6 +85,8 @@ class HelpAndResources extends React.Component {
               <div>
                 <General display={this.state.display} />
                 <Benefits display={this.state.display} />
+                <Billing display={this.state.display} />
+                
               </div>
             </div>
           </div>
