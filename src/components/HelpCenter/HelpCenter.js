@@ -41,7 +41,7 @@ class HelpAndResources extends React.Component {
                     <li className="nav-item">
                       <div className="icons">
                         <MdQuestionAnswer />
-                      </div>                      
+                      </div>
                       <a href="#" className="nav-link" onClick={this.handleClick}>
                         General
                       </a>
@@ -86,7 +86,7 @@ class HelpAndResources extends React.Component {
                 <General display={this.state.display} />
                 <Benefits display={this.state.display} />
                 <Billing display={this.state.display} />
-                
+
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default HelpAndResources;
  <div>
          <nav className="nav" id="navbar">
         <div className="nav-content">
-         
+
           <ul className="nav-items">
             <li className="nav-item">
               <Link
