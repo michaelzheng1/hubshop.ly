@@ -2,6 +2,33 @@
   padding: 24px 28px 24px 50px;
 }
 
+.text{
+  background: #F9F9F9;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 20px 20px 20px;
+}
+
+.btn-default {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #2f85f6 !important;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  padding: 10px 31px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  vertical-align: center;
+}
+
 
 .View_more {
   padding-right: 100px;
