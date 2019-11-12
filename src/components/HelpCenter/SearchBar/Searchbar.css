@@ -1,0 +1,35 @@
+.search {
+    padding-left: 20px;
+    padding-top: 45px;
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.searchTerm {
+    position: relative;
+    height: 40px;
+    padding-left: 33px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+
+#search-icon {
+    position: absolute;
+    left: 10px;
+    top: 54px;
+}
+
+.searchbar .btn {
+    margin-left: 30px;
+}

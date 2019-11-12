@@ -1,5 +1,6 @@
-  
+
 import React from "react";
+import "./SearchBar.css";
 
 class Search extends React.Component {
   constructor(props) {
@@ -29,15 +30,15 @@ class Search extends React.Component {
   render() {
     return (
       <div className="search">
-          <div className="input-group mb-4 border rounded-pill p-1">
-            <div className="input-group-prepend border-0">
-              <button id="button-addon4" type="button" className="btn btn-link text-info">
-                  <img src="src/components/Images/search.png"/>
-              </button>
-              <input type="search" placeholder="What're you searching for?"  className="form-control bg-none border-0"/>
-             
-            </div>
-          </div>
+        <div className="row searchbar">
+          <input type="text" className="col-md-10 searchTerm" placeholder="Type your questions..." />
+          <img src="/src/components/Images/search.png" id="search-icon" />
+
+          <button type="button" className="btn float-right btn-default">
+            Search
+          </button>
+        </div>
+
       </div>
     );
   }
@@ -53,7 +54,7 @@ export default Search;
         <div className="SearchBar">
           <form onSubmit={this.handleSearch}>
             <div className="Inner-Addon Left-Addon">
-                
+
               <InputBase
                 onChange={this.handleTermChange}
                 placeholder="Search By Title"

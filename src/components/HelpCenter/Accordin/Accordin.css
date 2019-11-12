@@ -1,3 +1,17 @@
+.accordin-heading {
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #0B0B0B;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
 .panel-title {
     position: relative;
 }
@@ -36,6 +50,6 @@
     color: #818181;
 }
 
-#lastHr{
+#lastHr {
     padding-bottom: 30px;
 }

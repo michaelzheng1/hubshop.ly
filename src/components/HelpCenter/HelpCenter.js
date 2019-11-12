@@ -3,6 +3,12 @@ import "./helpCenter.css";
 import General from "./Accordin/General";
 import Benefits from "./Accordin/Benefits";
 import Search from "./SearchBar/SearchBar";
+import { FaStar } from "react-icons/fa";
+import { FaDollarSign } from "react-icons/fa";
+import { MdQuestionAnswer } from "react-icons/md";
+import { IoLogoWordpress } from "react-icons/io";
+import { FaWordpress } from "react-icons/fa";
+import { FaWrench } from "react-icons/fa";
 
 class HelpAndResources extends React.Component {
   constructor(props) {
@@ -30,37 +36,45 @@ class HelpAndResources extends React.Component {
             <div className="card-body">
               <div className="card-text">
                 <nav className="navbar">
-                  <ul className="navbar-nav">
+                  <ul className="help-navbar-nav">
                     <li className="nav-item">
-                      <img src="/src/components/Images/question.png" alt="questions"></img>
+                      <div className="icons">
+                        <MdQuestionAnswer />
+                      </div>                      
                       <a href="#" className="nav-link" onClick={this.handleClick}>
                         General
                       </a>
                     </li>
                     <li className="nav-item">
-                   
-                      <img src="/src/components/Images/star.png" alt="questions"></img>
+                      <div className="icons">
+                        <FaStar />
+                      </div>
                       <a href="#" className="nav-link" onClick={this.handleClick}>
                         Benefits
                       </a>
-                    
                     </li>
                     <li className="nav-item">
-                      <img src="/src/components/Images/money.png" alt="questions"></img>
+                      <div className="icons">
+                        <FaDollarSign />
+                      </div>
                       <a href="#" className="nav-link" onClick={this.handleClick} >
                         Billing
                       </a>
                     </li>
                     <li className="nav-item">
-                      <img src="/src/components/Images/group.png" alt="questions"></img>
+                      <div className="icons">
+                        <FaWrench />
+                      </div>
                       <a href="#" className="nav-link" onClick={this.handleClick}>
                         Technica
                       </a>
                     </li>
                     <li className="nav-item">
-                      <img src="/src/components/Images/bigpress.png" alt="questions"></img>
+                      <div className="icons">
+                        <FaWordpress />
+                      </div>
                       <a href="#" className="nav-link" onClick={this.handleClick} >
-                        BigPress
+                        BigPres.s
                       </a>
                     </li>
                   </ul>
@@ -80,3 +94,75 @@ class HelpAndResources extends React.Component {
 }
 
 export default HelpAndResources;
+
+/*
+ <div>
+         <nav className="nav" id="navbar">
+        <div className="nav-content">
+         
+          <ul className="nav-items">
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 2
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="helpCenter"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Help Center
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 4
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section5"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 5
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      */

@@ -23,8 +23,7 @@ class Billing extends React.Component {
                   </div>
 
                   <hr className="horizontal-line"></hr>
-
-                  <div className="row">
+                  <div className="row"> 
                     <div className="col-sm-5">
                       <p>Lifecyle State to use for New Orders</p>
                     </div>
@@ -38,8 +37,8 @@ class Billing extends React.Component {
                           aria-haspopup="true"
                           aria-expanded="false"
                         >
-                          Customers
-                          <img src="/src/components/Images/arrow_down.png" />
+                          <span className="float-left">Customers</span>
+                          <img src="/src/components/Images/arrow_down.png" className="right-side"/>
 
                         </button>
                         <div
@@ -103,24 +102,17 @@ class Billing extends React.Component {
                 <div className="card-text">
                   <div className="payment">
                     <div className="row">
-                      <div className="col-md-10">
+                      <div className="col-md-8">
                         <p>
                           Would you like HubShop.ly to sync your orders as Deals
                           in Hubspot?
                         </p>
                       </div>
-                      <div className="col-md-2">
-                        <div className="custom-control custom-switch">
-                          <input
-                            type="checkbox"
-                            className="custom-control-input"
-                            id="customSwitches"
-                          />
-                          <label
-                            className="custom-control-label"
-                           
-                          ></label>
-                        </div>
+                      <div className="col-md-4">
+                       
+
+                      <label class="switch"><input type="checkbox" id="togBtn"/><div class="slider round"></div></label>
+
                       </div>
                     </div>
 
@@ -137,8 +129,8 @@ class Billing extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Sales Pipline
-                        <img src="/src/components/Images/arrow_down.png" />
+                        <span className="float-left">Sales Pipline</span>
+                        <img src="/src/components/Images/arrow_down.png" className="right-side"/>
                       </button>
                       <div
                         className="dropdown-menu"
@@ -161,8 +153,8 @@ class Billing extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Closed Won
-                        <img src="/src/components/Images/arrow_down.png" />
+                        <span className="float-left">Closed Won</span>
+                        <img src="/src/components/Images/arrow_down.png" className="right-side"/>
                       </button>
                       <div
                         className="dropdown-menu"
@@ -185,8 +177,8 @@ class Billing extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Closed Lost
-                        <img src="/src/components/Images/arrow_down.png" />
+                        <span className="float-left">Closed Lost</span>
+                        <img src="/src/components/Images/arrow_down.png" className="right-side"/>
                       </button>
                       <div
                         className="dropdown-menu"
@@ -212,8 +204,8 @@ class Billing extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Closed Lost
-                        <img src="/src/components/Images/arrow_down.png" />
+                        <span className="float-left">Closed Lost</span>                                         
+                        <img src="/src/components/Images/arrow_down.png" className="right-side"/>
                       </button>
                       <div
                         className="dropdown-menu"
@@ -239,8 +231,8 @@ class Billing extends React.Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Closed Lost
-                        <img src="/src/components/Images/arrow_down.png" />
+                        <span className="float-left">Closed Lost</span>
+                        <img src="/src/components/Images/arrow_down.png" className="right-side"/>
                       </button>
                       <div
                         className="dropdown-menu"

@@ -1,5 +1,9 @@
+#status {
+  padding-top: 24px;
+}
+
 .hubspot {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -8,7 +12,7 @@
 }
 
 .id {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -24,77 +28,50 @@
   width: 100%;
   left: 60px;
 }
+
 .vertical-line {
   width: 68px;
   height: 0px;
-  border: 1px solid #e9e9e9;
+  border: 1.5px solid #e9e9e9;
   margin-top: 70px;
-
   transform: rotate(90deg);
 }
 
-/*********                          *****************     8************/
-/*
-.col-sm-6 {
-  background-color: white;
-  width: 428px;
-  top: 0;
-  left: 0;
-  height: 137px;
-  background-image: linear-gradient(
-    2.7deg,
-    #8c3cee 0%,
-    #2f85f6 60.78%,
-    #2daef7 100%
-  );
-  background-size: 100% 10px;
-  background-position: 0% 0%, 0% 100%;
-  background-repeat: no-repeat;
-  border-radius: 4px 4px 0px 0px;
-  display: flex;
-}
-*/
 .section {
   position: relative;
-
   background-color: white;
   top: 0;
   left: 0;
   height: 137px;
-  background-image: linear-gradient(
-    2.7deg,
-    #8c3cee 0%,
-    #2f85f6 60.78%,
-    #2daef7 100%
-  );
+  background-image: linear-gradient(2.7deg,
+      #8c3cee 0%,
+      #2f85f6 60.78%,
+      #2daef7 100%);
   background-size: 100% 10px;
   background-position: 0% 0%, 0% 100%;
   background-repeat: no-repeat;
   border-radius: 4px 4px 0px 0px;
   display: flex;
 }
-
-
 
 .connect-status {
   width: 50%;
   margin: auto 0;
-
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
 .connect-status h1 {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 25px;
-
   align-items: center;
   text-align: center;
 }
+
 .connected-green {
   color: #55d352;
 }
@@ -102,47 +79,36 @@
 .connected-yellow {
   color: #ffa438;
 }
+
 .connect-status h4 {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-
   align-items: center;
   text-align: center;
-
   color: #818181;
 }
-/************ Numbers ***************/
-.number-section {
-  width: 50%;
-  text-align: center;
 
-}
-.number {
-  font-family: Roboto;
+.numberStatus {
+  font-family: "Roboto", sans-serif !important;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 32px !important;
   line-height: 37px;
-  /* identical to box height */
-
   text-align: center;
-
   color: #2f85f6;
+  margin-top: 10px;
 }
 
 .number-descrip {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  /* identical to box height */
-
   align-items: center;
   text-align: center;
-
   color: #818181;
 }

@@ -1,12 +1,44 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Black.otf") format("otf"),
-       url("/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Bold.otf") format("otf");
+    url("/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Bold.otf") format("otf");
 }
+
+.setup {
+  padding-top: 40px;
+}
+
+.list {
+  position: relative;
+}
+
+.listNum {
+  position: absolute;
+  top: -20px;
+  font-family: Gilroy;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: #DADADA !important;
+}
+
+.setup h1 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #0B0B0B;
+  font-family: 'Muli', sans-serif;
+  padding-bottom: 10px;
+}
+
 .setup-list {
   list-style: none;
   counter-reset: item;
 }
+
 .setup-list li {
   counter-increment: item;
   font-family: "Muli", sans-serif;
@@ -17,20 +49,28 @@
 
   color: #0b0b0b;
 }
+
 .setup-list li:before {
   margin-right: 10px;
   content: counter(item);
   color: #dadada;
-  /*font-family: "Gilroy", sans-serif;*/
-  font-family: "Gilroy", serif ;
+  font-family: "Gilroy", serif;
   font-size: 30px;
   line-height: 36px;
+}
+
+.code-inputbox {
+  padding-top: 40px;
+}
+
+.code-details {
+  padding-top: 40px;
+  padding-left: 32px;
 }
 
 .code {
   width: 448px;
   height: 74px;
-
   background: #ffffff;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
@@ -46,4 +86,3 @@
 font-family: 'Muli', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-

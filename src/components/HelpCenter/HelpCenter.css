@@ -1,20 +1,44 @@
 .flex-container {
-    display: flex;
-    position: relative;
-    flex-wrap: nowrap;
-    /*position: relative;*/ 
-    top: 120px;
-    width: 100%;
-    left: 60px;
-  }
-
-  .faq {
-    background-color: red;
-    padding-left: 50px;
-  }
-
-.navbar-nav li {
-  display: inline;
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  /*position: relative;*/
+  top: 120px;
+  width: 100%;
+  left: 60px;
 }
-  /*** ==accordin== **/
- 
+
+.faq {
+  background-color: red;
+  padding-left: 50px;
+}
+
+.help-navbar {
+  padding-bottom: 50px;
+}
+
+.help-navbar-nav {
+  display: contents;
+}
+
+.help-navbar-nav li {
+  display: -webkit-inline-box;
+}
+
+.icons {
+  padding-top: 5px;
+  padding-right: 10px;
+  color: black;
+}
+
+nav-link {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #0B0B0B;
+}
+
+.help-navbar {border-bottom:2px solid rgb(0,0,0);padding-bottom:10px};
