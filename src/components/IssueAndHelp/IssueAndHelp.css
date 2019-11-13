@@ -1,3 +1,7 @@
+.issueandhelp {
+  padding-top: 25px;
+}
+
 .resource-icon {
   margin-left: 12px;
   margin-right: 12px;
@@ -6,7 +10,17 @@
 
 .use p {
   color: #818181;
+  padding-left: 57px;
+   font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #818181;
 }
+
 .typeHere {
   height: 63px;
   background: #f4f4f4;
@@ -16,12 +30,14 @@
   vertical-align: middle;
   padding-left: 18px;
 }
+
 .issue-and-help {
   height: 309px;
   margin-top: 25px;
 }
+
 .issue p {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -37,10 +53,11 @@
 }
 
 textarea {
-    vertical-align: center !important;
+  vertical-align: center !important;
 }
+
 .btn-default {
-  font-family: Muli;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -63,5 +80,17 @@ textarea {
 
 p {
   display: inline-block;
-
 }
+
+.resouce-text p {
+  
+  font-family: "Muli", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+
+color: #0B0B0B;
+padding-left: 10px;
+}
+ 

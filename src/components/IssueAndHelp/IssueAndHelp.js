@@ -4,7 +4,7 @@ import "./IssueAndHelp.css";
 class IssueAndHelp extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container issueandhelp">
         <div className="row">
           <div className="col-sm-6">
             <div className="card issue-and-help">
@@ -38,26 +38,28 @@ class IssueAndHelp extends React.Component {
               <div className="card-body">
                 <div className="card-text">
                   <div className="row">
-                    <img
-                      className="resource-icon"
-                      src="/src/components/Images/envelope.png"
-                    />
-                    <p>
-                      Contact us anytime at{" "}
-                      <br/>
-                      <a href="#">Support@GrooveCommerce.com</a>
-                    </p>
+                    <div className="col-md-12 resouce-text">
+                      <img
+                        className="resource-icon"
+                        src="/src/components/Images/envelope.png"
+                      />
+                      <p>
+                        Contact us anytime at{" "} 
+                       
+                        <a href="#">Support@GrooveCommerce.com</a>
+                      </p>
+                    </div>
                   </div>
-                  <br/>
+                  <br />
                   <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 resouce-text">
                       <img
                         className="resource-icon"
                         src="/src/components/Images/books.png"
                       />
                       <p>
                         E-book resources available at{" "}
-                        <br/>
+                        
                         <a href="#">HubShop.ly/Resources</a>
                       </p>
                     </div>
@@ -65,7 +67,7 @@ class IssueAndHelp extends React.Component {
                   <div className="row">
                     <div className="col-md-12 use">
                       <p>
-                        E-books help you to install as well as better make use
+                        E-books help you to install as well as better make use <br></br>
                         of HubShop.ly
                       </p>
                     </div>

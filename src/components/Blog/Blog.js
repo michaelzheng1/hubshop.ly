@@ -4,8 +4,8 @@ import "./Blog.css"
 class Blog extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="col-12">
+      <div className="container blog-section">
+        <div className="col-16">
           <h1>Blog</h1>
           <div className="card">
             <h5 className="card-header">Blog</h5>

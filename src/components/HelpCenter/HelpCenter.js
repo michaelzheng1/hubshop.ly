@@ -1,5 +1,5 @@
 import React from "react";
-import "./helpCenter.css";
+import "./HelpCenter.css";
 import General from "./Accordin/General";
 import Benefits from "./Accordin/Benefits";
 import Billing from "./Accordin/Billing";
@@ -10,7 +10,6 @@ import { MdQuestionAnswer } from "react-icons/md";
 import { IoLogoWordpress } from "react-icons/io";
 import { FaWordpress } from "react-icons/fa";
 import { FaWrench } from "react-icons/fa";
-
 class HelpAndResources extends React.Component {
   constructor(props) {
     super(props);
@@ -29,7 +28,7 @@ class HelpAndResources extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container helpcenter">
         <div className="col-16">
           <h1>Help Center</h1>
           <div className="card">
