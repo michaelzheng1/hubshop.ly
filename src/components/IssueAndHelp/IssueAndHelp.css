@@ -1,3 +1,12 @@
+.resource-icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 20px;
+}
+
+.use p {
+  color: #818181;
+}
 .typeHere {
   height: 63px;
   background: #f4f4f4;
@@ -54,6 +63,5 @@ textarea {
 
 p {
   display: inline-block;
-  
-}
 
+}

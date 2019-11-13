@@ -44,6 +44,7 @@ class IssueAndHelp extends React.Component {
                     />
                     <p>
                       Contact us anytime at{" "}
+                      <br/>
                       <a href="#">Support@GrooveCommerce.com</a>
                     </p>
                   </div>
@@ -56,12 +57,13 @@ class IssueAndHelp extends React.Component {
                       />
                       <p>
                         E-book resources available at{" "}
+                        <br/>
                         <a href="#">HubShop.ly/Resources</a>
                       </p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 use">
                       <p>
                         E-books help you to install as well as better make use
                         of HubShop.ly

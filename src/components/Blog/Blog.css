@@ -2,7 +2,7 @@
   padding: 24px 28px 24px 50px;
 }
 
-.text{
+.text {
   background: #F9F9F9;
   font-family: Muli;
   font-style: normal;
@@ -10,6 +10,28 @@
   font-size: 16px;
   line-height: 24px;
   padding: 20px 20px 20px 20px;
+
+}
+
+.text h2 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #0B0B0B;
+}
+.text p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+
+  color: #818181;
 }
 
 .btn-default {
