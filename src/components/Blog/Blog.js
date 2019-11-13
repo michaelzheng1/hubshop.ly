@@ -12,15 +12,17 @@ class Blog extends React.Component {
             <div className="card-body">
               <div className="card-text blog-container">
                 <div className="row">
-                <div className="col-sm-6">
-                <h2>Big Commerce Pricing: Choose the right plan for you</h2>
+                <div className="col-sm-6 text">
+                <h2>Big Commerce Pricing:
+                <br/>
+                Choose the right plan for you</h2>
                 <p>
                   The more you know about your ecommerce customers, the better
                   you'll be able to create value for them in your products and
                   your marketing. The more value you create for your customers,
                   the more value they'll create...
                   </p>
-                  <button type="button" class="btn btn-primary">
+                  <button type="button" class="btn-default">
                     Read Article
                     </button>
                 </div>

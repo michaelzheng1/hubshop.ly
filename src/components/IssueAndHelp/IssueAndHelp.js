@@ -47,6 +47,7 @@ class IssueAndHelp extends React.Component {
                       <a href="#">Support@GrooveCommerce.com</a>
                     </p>
                   </div>
+                  <br/>
                   <div className="row">
                     <div className="col-md-12">
                       <img
