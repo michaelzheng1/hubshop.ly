@@ -38,7 +38,10 @@ class IssueAndHelp extends React.Component {
               <div className="card-body">
                 <div className="card-text">
                   <div className="row">
-                    <img className="resource-icon" src="/src/components/Images/envelope.png" />
+                    <img
+                      className="resource-icon"
+                      src="/src/components/Images/envelope.png"
+                    />
                     <p>
                       Contact us anytime at{" "}
                       <a href="#">Support@GrooveCommerce.com</a>
@@ -46,7 +49,10 @@ class IssueAndHelp extends React.Component {
                   </div>
                   <div className="row">
                     <div className="col-md-12">
-                      <img className="resource-icon" src="/src/components/Images/books.png" />
+                      <img
+                        className="resource-icon"
+                        src="/src/components/Images/books.png"
+                      />
                       <p>
                         E-book resources available at{" "}
                         <a href="#">HubShop.ly/Resources</a>
@@ -55,11 +61,10 @@ class IssueAndHelp extends React.Component {
                   </div>
                   <div className="row">
                     <div className="col-md-12">
-
                       <p>
-                        E-books help you to install as well as better make use of
-                        HubShop.ly
-                    </p>
+                        E-books help you to install as well as better make use
+                        of HubShop.ly
+                      </p>
                     </div>
                   </div>
                 </div>
